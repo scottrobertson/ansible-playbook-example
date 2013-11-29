@@ -1,0 +1,4 @@
+---
+- apt_repository: repo='ppa:nginx/stable'
+- apt: pkg=nginx state=installed update_cache=yes
+- service: name=nginx state=restarted

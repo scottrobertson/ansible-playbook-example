@@ -1,0 +1,8 @@
+---
+- hostname: name={{ inventory_hostname }}
+- apt: update_cache=yes
+- apt: pkg=make state=installed
+- apt: pkg=git-core state=installed
+- apt: pkg=python-setuptools state=installed
+- apt: pkg=python-apt state=installed
+- apt: pkg=python-pycurl state=installed
