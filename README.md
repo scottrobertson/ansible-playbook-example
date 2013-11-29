@@ -5,8 +5,8 @@ A simple Ansible playbook demo with:
  - Git
 
 
-### Vagrant
+#### Vagrant
 ```vagrant up```
 
-## None Vagrant
+#### None Vagrant
 ```ansible-playbook ansible/playbook.yml -i ansible/inventory/api.ini```
